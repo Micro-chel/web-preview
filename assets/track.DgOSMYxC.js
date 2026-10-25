@@ -1,0 +1,1 @@
+function e(e,t={}){window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:e,...t})}function t(t=document){t.querySelectorAll(`[data-track]`).forEach(t=>{t.addEventListener(`click`,()=>e(t.dataset.track))})}export{e as n,t};
